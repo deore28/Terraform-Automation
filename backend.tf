@@ -3,6 +3,6 @@ terraform {
     bucket = "adesh-first-bucket-for-terraform-project"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "my-dynamodb-table"
+    dynamodb_table = "my-dynamo-db-table-first"
   }
 }
