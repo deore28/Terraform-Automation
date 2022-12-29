@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "bucket-for-terra-project-adii"
+    bucket = "terra-project-bucket-for-adii"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "my-dynamo-db-table-first"
+    dynamodb_table = "terra-project-table-adii"
   }
 }
